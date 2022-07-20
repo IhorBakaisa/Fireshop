@@ -18,8 +18,8 @@ export class Categories extends Component {
                     name: 'Навушники'
                 },
                 {
-                  key: 'monitors',
-                  name: 'Монітори'
+                  key: 'web_cameras',
+                  name: 'Веб-камери'
               },
             ]
         }

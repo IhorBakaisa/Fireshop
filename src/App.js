@@ -36,6 +36,54 @@ class App extends React.Component {
           category: 'gaming_mouses',
           price: '5399'
         },
+        {
+          id: 4,
+          title: 'Edifier G2 II Black-Red',
+          img: 'Headphone1.JPEG',
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
+          category: 'headphones',
+          price: '1299'
+        },
+        {
+          id: 5,
+          title: 'Sven AP-G988MV Black-Red',
+          img: 'Headphone2.JPEG',
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
+          category: 'headphones',
+          price: '729'
+        },
+        {
+          id: 6,
+          title: 'Sven AP-G855MV Black-Red',
+          img: 'Headphone3.JPEG',
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
+          category: 'headphones',
+          price: '625'
+        },
+        {
+          id: 7,
+          title: 'Razer Kiyo PRO',
+          img: 'Webcam1.JPEG',
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
+          category: 'web_cameras',
+          price: '6999'
+        },
+        {
+          id: 8,
+          title: 'Logitech Webcam C920S PRO',
+          img: 'Webcam2.JPEG',
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
+          category: 'web_cameras',
+          price: '3699'
+        },
+        {
+          id: 9,
+          title: 'Tracer WEB007',
+          img: 'Webcam3.JPEG',
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
+          category: 'web_cameras',
+          price: '1207'
+        },
       ],
       showFullItem: false,
       fillItem: {}
