@@ -17,7 +17,7 @@ class App extends React.Component {
           title: 'Logitech G502',
           img: 'Mouse1.JPEG',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
-          category: 'gaming_mouse',
+          category: 'gaming_mouses',
           price: '5399'
         },
         {
@@ -25,7 +25,7 @@ class App extends React.Component {
           title: 'Logitech G703',
           img: 'Mouse2.JPEG',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
-          category: 'gaming_mouse',
+          category: 'gaming_mouses',
           price: '3899'
         },
         {
@@ -33,7 +33,7 @@ class App extends React.Component {
           title: 'Logitech G903',
           img: 'Mouse3.JPEG',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
-          category: 'gaming_mouse',
+          category: 'gaming_mouses',
           price: '5399'
         },
       ],

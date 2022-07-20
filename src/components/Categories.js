@@ -10,13 +10,17 @@ export class Categories extends Component {
                     name: 'Всі'
                 },
                 {
-                    key: 'gaming_mouse',
+                    key: 'gaming_mouses',
                     name: 'Ігрові миші'
                 },
                 {
                     key: 'headphones',
                     name: 'Навушники'
                 },
+                {
+                  key: 'monitors',
+                  name: 'Монітори'
+              },
             ]
         }
     }

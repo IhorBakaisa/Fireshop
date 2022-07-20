@@ -49,7 +49,7 @@ header .shop-cart-button {
     transition: color, transform 500ms ease;
 }
 
-header .shop-cart-button:hover, header .shop-cart-button:hover:active {
+header .shop-cart-button:hover, header .shop-cart-button.active {
     color: #dc3d3d;
     transform: scale(1.5);
 }
@@ -212,6 +212,10 @@ main .item img, .full-item img {
     cursor: pointer;
 }
 
+.full-item img {
+    margin: 50px 175px;
+}
+
 main .item img:hover, .full-item img:hover {
     transform: scale(1.05);
 }
@@ -224,6 +228,22 @@ main b, .full-item b {
 }
 
 main b, .full-item b {color: #5fa36a}
+
+.full-item .close-cart {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background: rgb(186, 186, 186);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 500ms ease;
+}
 
 main .add-to-cart, .full-item .add-to-cart {
     position: absolute;
